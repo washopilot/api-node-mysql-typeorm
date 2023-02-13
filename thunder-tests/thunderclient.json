@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "73ad874c-8dc0-492a-b006-35487bf210f3",
+    "colId": "74ed5118-71f0-4bfb-ac45-bfe6e0627021",
+    "containerId": "",
+    "name": "users",
+    "url": "/users",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-02-13T00:40:27.713Z",
+    "modified": "2023-02-13T00:42:29.881Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"firstName\": \"Fernando\",\n  \"lastName\": \"Chicaiza\",\n  \"age\": 42\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0eb66e86-bba2-45f7-9dbc-27913a6c20fb",
+    "colId": "74ed5118-71f0-4bfb-ac45-bfe6e0627021",
+    "containerId": "",
+    "name": "users",
+    "url": "/users",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2023-02-13T00:40:27.714Z",
+    "modified": "2023-02-13T00:40:27.714Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "5b8e8af0-3b9e-4763-8fe7-72fbdd827720",
+    "colId": "74ed5118-71f0-4bfb-ac45-bfe6e0627021",
+    "containerId": "",
+    "name": "users",
+    "url": "/users/2",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2023-02-13T00:40:27.715Z",
+    "modified": "2023-02-13T01:02:16.467Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2ea5909d-fc2c-41dd-9bd0-9086c4205e02",
+    "colId": "74ed5118-71f0-4bfb-ac45-bfe6e0627021",
+    "containerId": "",
+    "name": "users",
+    "url": "/users/2",
+    "method": "PUT",
+    "sortNum": 50000,
+    "created": "2023-02-13T00:40:27.716Z",
+    "modified": "2023-02-13T01:10:43.965Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"firstName\": \"Washington\",\n  \"lastName\": \"Chicaiza\",\n  \"age\": 42\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
